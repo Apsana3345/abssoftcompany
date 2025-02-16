@@ -1,0 +1,55 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 0;
+}
+.clients{
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    
+    justify-content:space-between;
+
+    
+}
+.logoimg{
+    width: 30px;
+}
+
+
+.leftsection{
+    display: flex;
+    gap: 1.3rem;
+    
+
+}
+.trust{
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+.rightsection{
+    border-radius: 0.5rem;
+    text-align: center;
+    overflow: hidden;
+   
+}
+.whatsappbtn{
+    padding: 1rem;
+    border: none;
+    
+    background-color:  rgb(61, 104, 164);
+    color: white;
+    font-size: 1.2rem;
+    
+
+}
+.imagesClients{
+    padding: 4rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.imagelist{
+    width: 250px;
+}

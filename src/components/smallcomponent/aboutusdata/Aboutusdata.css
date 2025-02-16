@@ -1,0 +1,35 @@
+.aboutusdata-main{
+    padding: 1rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.aboutus-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.aboutdataicon{
+box-shadow: 1px 1px 13px rgba(203, 201, 201, 0.436);
+font-size: 6rem;
+border-radius: 50%;
+padding: 1rem;
+color:white;
+
+}
+
+.number-data{
+font-size: 2rem;
+font-weight: 900;
+padding: 1rem;
+
+
+}
+.number-text{
+
+    font-size: 1.4rem;
+    font-weight: 700;
+
+}

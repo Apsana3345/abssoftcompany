@@ -1,0 +1,138 @@
+
+
+.contactform-section{
+    padding: 3rem 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Barlow",sans-serif;
+
+}
+.contact-form-main{
+    padding: 1rem;
+}
+
+
+
+.formimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+
+}
+.formimg img{
+    width: 20px;
+   
+}
+
+.formimg .form-span{
+    color: rgb(61, 104, 164);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.Formtitle{
+
+text-align: center;
+font-size: 2rem;
+font-weight: 800;
+padding: 1rem;
+
+}
+.formdescription{
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+  
+  .formimg {
+    text-align: center;
+  }
+  
+  
+  .contact-form{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  
+  .contact-form label {
+    font-weight: 400;
+    
+    font-size:1.2rem;
+  }
+  
+  .contact-form input
+ {
+    width: 60%;
+    padding: 10px;
+    margin: 0.3rem 0;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgba(58, 53, 53, 0.511);
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    width: 60%;
+    padding: 10px;
+    height: 100px;
+    background: none;
+    margin-top: 0.7rem;
+    border: 1px solid  rgba(58, 53, 53, 0.511);;
+  }
+.textarea-contact{
+    font-size: 1.3rem;
+}
+  
+  .char-limit {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .recaptcha-container {
+    display: flex;
+    width: 30%;
+    align-items:center ;
+    padding: 1rem 0;
+    box-shadow: 2px 2px 14px rgba(125, 121, 121, 0.396);
+    margin: 20px 0;
+    border-radius: 0.6rem;
+    background: white;
+  }
+  
+  .recaptcha-container input {
+    transform: scale(3);
+  }
+  
+  .recaptcha-container label {
+    font-size: 1.7rem;
+    padding: 0 1.3rem;
+    color: black;
+  }  
+  
+  .submit-btn {
+    width: 15%;
+    background: rgb(61, 104, 164);
+    color: white;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submit-btn:hover {
+    background: #0056b3;
+  }
+  

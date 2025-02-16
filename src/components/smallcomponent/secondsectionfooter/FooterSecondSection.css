@@ -1,0 +1,100 @@
+.footersecond-main{
+display: flex;
+/* justify-content: space-between; */
+align-items: center;
+padding: 2rem 0;
+font-family: "Barlow",sans-serif;
+
+}
+.social-Logo{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: -5rem;
+
+}
+.links{
+    text-align: center;
+display: flex;
+font-size: 2rem;
+gap: 1rem;
+padding: 0 2rem;
+}
+/* .company-title{
+    color: black;
+} */
+ /* .heading-comapany{
+    position: relative;
+ } */
+
+
+ .company-main{
+    display: flex;
+    gap: 1.2rem;
+    padding: 1.4rem 1rem;
+ }
+.company-section {
+    display: flex;
+    flex-direction: column;
+gap: 1.5rem;
+    /* position: relative; */
+    /* font-size: 1.4rem; */
+    
+    color: rgba(42, 40, 40, 0.824);
+}
+
+
+
+.texts{
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.texts a{
+    color: gray;
+    text-decoration: none;
+}
+
+.iconGreater{
+    /* display: flex; */
+    color: #315c8da1;
+}
+.company-title{
+font-size: 1rem;
+    font-weight: 700;
+}
+
+
+
+/* .company-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1rem; 
+    width: 65%;
+    height: 1px; 
+    background-color: #1f5faa; 
+}
+ .company-title::before {
+    content: "";
+    position: absolute;
+    right: 3.5rem;
+    bottom: -25px; 
+    width: 9px; 
+    height: 9px;
+    background-color: white;
+    border:1px solid #1f5faa; ; 
+    border-radius: 50%;
+} */
+
+/*
+.texts{
+    margin-top: 0.4rem;
+}
+.text-below{
+    padding: 0.5rem;
+    color: rgb(123, 116, 116);
+}
+.greatersymbol{
+margin-right:0.5rem ;
+} */

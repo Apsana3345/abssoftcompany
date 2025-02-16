@@ -1,0 +1,60 @@
+.aspect-section{
+    padding: 2rem;
+    font-family: "Barlow",sans-serif;
+}
+.aspect-main{
+display: flex;
+padding: 2rem;
+justify-content: center;
+align-items: center;
+
+}
+
+.head-aspect{
+    display: flex;
+    color: rgb(61, 104, 164);
+    align-items: center;
+    font-size: 0.6rem;
+    gap: 1rem;
+}
+
+
+.title-aspects{
+    padding: 1rem 0;
+}
+.heading-aspects{
+font-size: 2.3rem;
+font-weight: 800;
+}
+.span-text-aspect{
+color: rgb(61, 104, 164);;
+
+}
+
+.aspect-right-Image img{
+width: 400px;
+    
+}
+.aboutaspectsdeal{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px;
+    
+padding: 1rem 0;
+
+}
+.deals{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgba(46, 44, 44, 0.842);
+    line-height: 1.5;
+    
+    
+}
+.deals .iconify {
+    margin-right: 10px;
+  }
+
+

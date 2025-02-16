@@ -1,0 +1,32 @@
+.hamburger{
+    height: 100vh;
+    color: white;
+    z-index: 100;
+}
+
+
+.hamburger-icon{
+
+    font-size: 1rem;
+    color:white;
+    
+}
+.hamburger-btn{
+    background: none;
+    border: none;
+    position:relative ;
+    
+}
+.hamburger-mobile-list{
+    position: fixed;
+    height:100vh;
+    background-color: rgb(1, 2, 43);
+    border-radius: 0.2rem 0 0 0;
+    z-index:100;
+    padding: 3rem  ;
+    right: 0;
+    gap: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+}
