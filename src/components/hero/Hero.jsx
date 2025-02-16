@@ -9,61 +9,60 @@ const Hero = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setFade(false); 
+      setFade(false);
 
       setTimeout(() => {
         setIndex((prevIndex) => (prevIndex + 1) % HeroConstantList.length); // Change slide
-        setFade(true); 
-      }, 500); 
-    }, 4000); 
+        setFade(true);
+      }, 500);
+    }, 4000);
 
-    return () => clearInterval(interval); 
+    return () => clearInterval(interval);
   }, []);
 
-  const hero = HeroConstantList[index]; 
-  
+  const hero = HeroConstantList[index];
 
   return (
     <div
       className="heroMain"
       style={{
-        backgroundImage: `url(${hero.img})`, 
-        
-      
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-        
+        backgroundImage: `url(${hero.img})`,
+
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
       }}
     >
-     
-
-      
-<div className="scroll-top">↑</div>
-        <Wrapper>
-      <section className="herosection">
-      <div className="center">
-        <div className="loading">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-      </div>
+      <button
+        className="scroll-top"
+        onClick={() => {
+          window.scrollTo(0, 0); 
+        }}
+      >
+        ↑
+      </button>
+      <Wrapper>
+        <section className="herosection">
+          <div className="center">
+            <div className="loading">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
           <div className={`hero-text ${fade ? "slide-in" : "slide-out"}`}>
             <h1 className="hero-title">{hero.title}</h1>
             <p className="firstHeading">{hero.label}</p>
-            <p className="secondHeading">
-              {hero.text1}
-            </p>
+            <p className="secondHeading">{hero.text1}</p>
             <p className="thirdHeading">{hero.description}</p>
           </div>
         </section>
-        </Wrapper>
+      </Wrapper>
 
-        {/* <div className="rightarrow">
+      {/* <div className="rightarrow">
           <span className="arrow">→</span>
         </div> */}
     </div>

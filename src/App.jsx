@@ -4,6 +4,7 @@ import Layout from "./components/layout/Layout";
 
 import { RouteConstant } from "./constant/RouteConstant";
 import Loader from "./components/smallcomponent/loader/Loader";
+import './App.css'
 
 const App = () => {
   const [loading, setLoading] = useState(true);

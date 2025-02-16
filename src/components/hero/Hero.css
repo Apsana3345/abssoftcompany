@@ -161,6 +161,7 @@ align-items: center;
   height: 50px;
   width: 50px;
   cursor: pointer;
+  border: none;
   box-shadow: 2px 1px 15px rgba(160, 151, 151, 0.871);
   border-radius: 50px;
   z-index: 10000;

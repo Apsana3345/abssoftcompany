@@ -1,9 +1,11 @@
 import React from "react";
 import "./Services.css";
+import { useNavigate } from "react-router-dom";
 import servicesBg from "../../assets/service_bg_1.png";
 import Wrapper from "../layout/Wrapper";
 import Servicelist from "../smallcomponent/servicelist/Servicelist";
 const Services = () => {
+  const navigate = useNavigate(); 
   return (
     <div
       className="services-main"
@@ -36,7 +38,7 @@ const Services = () => {
             {/* smallCard */}
           </div>
           <div className="service-button">
-            <button className="service-btn1">View All Services →</button>
+            <button className="service-btn1"  onClick={()=>navigate('/services')}>View All Services →</button>
           </div>
         </div>
       </Wrapper>

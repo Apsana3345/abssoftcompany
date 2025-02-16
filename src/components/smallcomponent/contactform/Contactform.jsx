@@ -29,7 +29,8 @@ style={{backgroundImage:`url(${imgformbg})`,
         {/* form section */}
 
 
-        <form className="contact-form">
+        <form      action="https://getform.io/f/bzyyxnma"
+                method="post"  className="contact-form">
             <label htmlFor="name">Name *</label>
             <input type="text" id="name" name="name" required />
             
