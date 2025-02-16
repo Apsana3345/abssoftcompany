@@ -9,7 +9,9 @@ import iconImage from "../../assets/iconImage.svg";
 
 import Wrapper from "../layout/Wrapper";
 import Circle from "../smallcomponent/circle/Circle";
+import { useNavigate } from "react-router-dom";
 const About = () => {
+  const navigate= useNavigate();
   return (
     <section className="about-section">
       <Wrapper>
@@ -71,7 +73,9 @@ const About = () => {
             <div className="line"></div>
             <div className="about-contact">
               <div className="about-button">
-                <button className="butn1">Explore More →</button>
+                <button className="butn1" onClick={()=>navigate('/about-us')}
+                
+                >Explore More →</button>
                 <div className="number">
                   <div className="number-center">
                       <Icon

@@ -3,8 +3,10 @@ import "./Footer.css";
 import logofooter from "../../assets/abslogo.png";
 import Wrapper from "../layout/Wrapper";
 import FooterSecondSection from "../smallcomponent/secondsectionfooter/FooterSecondSection";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate=useNavigate()
   return (
     <section className="footer">
       <Wrapper>
@@ -29,7 +31,7 @@ const Footer = () => {
                 </p>
               </div>
               <div className="buttonTalk">
-                <button className="btntalk">Let's Talk</button>
+                <button className="btntalk"  onClick={()=>navigate("/contact-us")} >Let's Talk</button>
               </div>
             </div>
           </div>

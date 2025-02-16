@@ -4,15 +4,12 @@ import { Icon } from "@iconify/react";
 import Wrapper from "../layout/Wrapper";
 
 import logo from "../../assets/logo1.png";
-import { ContactInfo, SocialInfo, SupportConstant } from "../../constant/NavConstant";
+import { ContactInfo, SocialInfo } from "../../constant/NavConstant";
 import Hamburger from "../smallcomponent/hamburger/Hamburger";
 import Navlist from "../smallcomponent/navlist/Navlist";
-import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 const Navbar = () => {
-
-  
-
-
+  const navigate = useNavigate();
 
   return (
     <nav className="navbar">
@@ -24,18 +21,22 @@ const Navbar = () => {
                 {ContactInfo.map((item) => (
                   <div className="contact" key={item.id}>
                     <Icon icon={item.logo} />
-                    <a href={item.link} target="_blank" >
-
-                       <p>{item.label}</p>
-                        
-                       </a>
+                    <a href={item.link} target="_blank">
+                      <p>{item.label}</p>
+                    </a>
                   </div>
                 ))}
               </section>
               <section className="uppernav-left">
                 <p className="follow">Follow Us On:</p>
                 {SocialInfo.map((item) => (
-                  <a className="contact" key={item.id} href={item.link} target="_blank" rel="noopener noreferrer">
+                  <a
+                    className="contact"
+                    key={item.id}
+                    href={item.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Icon className="socialLinks" icon={item.logo} />
                   </a>
                 ))}
@@ -62,35 +63,27 @@ const Navbar = () => {
               <div className="link-button">
                 <span></span>
                 <section className="navList">
-                  <Navlist/>
+                  <Navlist />
                 </section>
 
                 <section className="btn1">
-                  <button className="search-btn">
+                  <button
+                    className="search-btn"
+                    onClick={() => navigate("/search")}
+                  >
                     <Icon icon="material-symbols:search-rounded" />
                   </button>
-                  <button className="search-btn1">
-
-                  {
-        SupportConstant.map((item) => (
-          <NavLink  className="linkbtn"
-          key={item.id} to={item.link}  >
-            {item.label}
-          </NavLink>
-          
-        )) 
-      }
-
-
-                   
+                  <button
+                    className="search-btn1 linkbtn"
+                    onClick={() => navigate("/support")}
+                  >
+                    SUPPORT →
                   </button>
-                  
                 </section>
-            
               </div>
               <section className="hamburger-menu">
-              <Hamburger />
-            </section>
+                <Hamburger />
+              </section>
             </div>
           </Wrapper>
           <div className="right"></div>

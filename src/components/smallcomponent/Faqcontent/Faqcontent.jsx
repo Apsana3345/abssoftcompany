@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import imgfaq from '../../../assets/shape.svg'
 import Wrapper from '../../layout/Wrapper'
 import './Faqcontent.css'
 import { Faqconstant } from '../../../constant/Faqconstant'
 
 const Faqcontent = () => {
+
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const handleToggle = (index) => {
+    setOpenIndex((prevIndex) => (prevIndex === index ? null : index));
+  };
+
+
+
   return (
     <section className="faqcontent-section">
       <Wrapper>
@@ -14,9 +23,14 @@ const Faqcontent = () => {
         </div>
         <h1 className="Faqtitle">Talk To About Any Question?</h1>
         <div className="detail-main">
-          {Faqconstant.map((item) => (
+          {Faqconstant.map((item,index) => (
             <div className="detailssection" key={item.id}>
-              <details className="faq-details">
+              <details className="faq-details"   open={openIndex === index}
+               onClick={(e) =>{
+                e.preventDefault();
+                handleToggle(index);
+                
+          }}>
                 <summary className="faq-summary">
                 {item.title}
                   <span className="faq-sign"></span>

@@ -76,15 +76,16 @@ export const ContactInfo = [
     },
   ];
   
-  export const SupportConstant=[
-    {
+  // export const SupportConstant=[
+  //   {
       
-        id: 2,
-        link: "/support",
-        label: "SUPPORT  → ",
+  //       id: 2,
+  //       link: "/support",
+  //       label: "SUPPORT  → ",
         
       
 
-    },
+  //   },
 
-  ]
+  // ]
+ 
