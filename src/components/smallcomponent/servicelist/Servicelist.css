@@ -107,3 +107,16 @@ background-color: white;
     align-items: center;
   }
 }
+@media (max-width: 1368px) {
+  .list-main {
+    .container {
+
+      display: grid;
+      position: relative;
+    
+      grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+      padding: 2rem 2rem;
+    
+    }
+  }
+}

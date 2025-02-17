@@ -61,3 +61,16 @@ padding: 0 2rem;
   gap: 1.2rem;
 padding: 1rem ;
 }
+
+@media(max-width:1368px){
+  .card-slider-container {
+  
+    position: absolute;
+    top: -2.8rem;
+    right: 7rem;
+    font-family: "Barlow",sans-serif;
+      margin: 0 auto;
+    }
+
+
+}
