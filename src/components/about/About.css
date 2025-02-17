@@ -2,7 +2,6 @@
 
 
 .about-section{
-    font-family: "Barlow", serif;
     padding: 5rem 0;
     /* background-color: green; */
     /* font-family: "Roboto", serif; */
@@ -219,5 +218,26 @@ color: black;
 .arrow{
     text-align: center;
     padding:0.8rem 0.2rem;
+}
+
+@media(max-width:1370px){
+
+
+
+    .about-section{
+        padding: 2rem 0;
+        
+    }
+    
+    
+    
+
+    .para{
+        color: gray;
+        font-size: 0.8rem;
+    }
+
+
+
 }
 

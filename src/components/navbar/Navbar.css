@@ -151,6 +151,67 @@ gap: 0.5rem;
        
        
   }
+  @media(max-width:1574px){
+      
+    .nav-logo{
+     
+      clip-path: polygon(0% 100%, 0% 0%, 76% 0%, 95% 100%);
+  
+  
+  }
+
+.link-button{
+  
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+ 
+  
+ margin-left: -4rem;
+ 
+
+}
+       
+  }
+  @media(max-width:1264px ){
+      
+    .nav-logo{
+     
+      clip-path: polygon(0% 100%, 0% 0%, 76% 0%, 82% 100%);
+  
+  
+  }
+
+.link-button{
+  
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 7% 100%);
+ padding-left: 1.4rem;
+  
+ margin-left: -4rem;
+ 
+
+}
+       
+  }
+  /* @media(max-width:1288px){
+      
+    .nav-logo{
+      padding-right:  3rem;
+     
+      clip-path: polygon(0% 100%, 0% 0%, 55% 0%, 80% 100%);
+      margin-right: -2.5rem;
+  
+  }
+
+.link-button{
+  
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 14% 100%);
+ padding-left: 4rem;
+  
+ margin-left: -6.3rem;
+ 
+
+}
+       
+  } */
   @media (max-width:918px){
       .right,.left{
           /* width:100%; */
