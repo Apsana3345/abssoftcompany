@@ -22,7 +22,7 @@ const Popup = () => {
 <>
 
  <div id="pup" className={`popup-container ${isOpen ? "show" : ""}`}>
-<img src={imagePopup} alt="" width="600px" height="600px" />
+<img  className="imgpopup"  src={imagePopup} alt="" width="600px" height="600px" />
 
 
 
