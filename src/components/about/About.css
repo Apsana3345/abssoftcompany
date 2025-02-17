@@ -47,6 +47,7 @@ font-weight: bold;
     display: flex;
     flex-direction: column;
     padding: 1rem ;
+    /* word-wrap: break-word;  */
     
 }
 
@@ -63,7 +64,6 @@ font-weight: bold;
 }
 
 .heading{
-    font-family: "Barlow", serif;
     font-size: 2.5rem;
     font-weight:700;
 }
@@ -73,10 +73,14 @@ font-weight: bold;
 }
 
 
-.para{
+  .para{
     padding: 1rem 0;
     color: gray;
     font-size: 1rem;
+    word-wrap: break-word; 
+
+
+
 }
 .team{
     display: flex;
@@ -101,7 +105,6 @@ font-weight: bold;
 }
 
 .text-about{
-    font-family: "Barlow", serif;
     display: flex;
     flex-direction: column;
     padding: 1rem 1.1rem;
@@ -220,24 +223,158 @@ color: black;
     padding:0.8rem 0.2rem;
 }
 
-@media(max-width:1370px){
+@media(max-width:1330px){
 
+.about-main{
+    gap: 1.5rem;
+}
 
-
-    .about-section{
-        padding: 2rem 0;
-        
+    
+   
+    
+    .leftImage img{
+        padding-left: 2rem;
+       width: 290px;
     }
     
-    
-    
-
+    .downCircle{
+       
+        width: 130px;
+        height: 130px;
+       
+        border: 0.6rem solid white;
+    }
+    .value{
+    font-size: 2.4rem;
+    }
+    .years{
+        font-size: 0.6rem;
+    }
+   .title .heading{
+    font-size: 1.3rem;
+   }
     .para{
-        color: gray;
-        font-size: 0.8rem;
+        width: 75%;
+    }
+    
+    .team{
+        width: 70%;
     }
 
+    .upper{
+        font-size: 1.3rem;
+    }
+.lower{
+    font-size: 0.9rem;
+}
 
 
 }
+@media(max-width:1050px){
+
+
+    
+.about-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-description{
+    align-items: center;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lower{
+    padding-left: 0.3rem;
+}
+.butn1{
+    font-size: 1rem;
+}
+
+
+}
+@media(max-width:590px){
+
+    
+       
+        
+       
+       
+       .title .heading{
+        font-size: 1rem;
+       }
+        .para{
+            width: 55%;
+        }
+        
+        .team{
+            width: 50%;
+        }
+    
+        .upper{
+            font-size: 0.8rem;
+        }
+    .lower{
+        font-size: 0.6rem;
+    }
+    .butn1{
+        font-size: 0.7rem;
+    }
+    
+    
+    }
+
+@media(max-width:410px){
+
+    
+       
+        
+       
+       
+       .title .heading{
+        font-size: 0.8rem;
+       }
+        .para{
+            width: 40%;
+        }
+        
+        .team{
+            width: 35%;
+        }
+    
+        .upper{
+            font-size: 0.8rem;
+        }
+    .lower{
+        font-size: 0.7rem;
+    }
+    .about-button{
+        display: flex;
+        gap: 0.4rem;
+        justify-content: center;
+    }
+
+.number-center {
+    width: 30px;
+    height: 30px;
+   
+}
+.about-button{
+    gap: 1.8rem;
+}
+
+    .butn1{
+      
+        font-size: 0.5rem;
+    }
+    .rightContact .num{
+        font-size: 0.7rem;
+    }
+    
+    
+    }
 

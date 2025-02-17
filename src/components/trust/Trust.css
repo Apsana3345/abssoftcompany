@@ -53,3 +53,39 @@
 .imagelist{
     width: 250px;
 }
+
+@media(max-width:740px){
+
+    .imagesClients{
+        padding:1rem;
+    
+
+    }
+    .imagelist{
+        width: 100px;
+    }
+    .whatsappbtn{
+        padding: 0.3rem;
+        
+        font-size: 1rem;
+        
+    
+    }
+    .trust{
+        font-size: 1.2rem;
+    }
+
+
+}
+@media(max-width:440px){
+
+    .imagesClients{
+        display: flex;
+        flex-direction: column;
+    
+
+    }
+    
+
+
+}
