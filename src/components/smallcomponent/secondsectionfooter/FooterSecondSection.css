@@ -3,7 +3,6 @@ display: flex;
 /* justify-content: space-between; */
 align-items: center;
 padding: 2rem 0;
-font-family: "Barlow",sans-serif;
 
 }
 .social-Logo{
@@ -20,12 +19,7 @@ font-size: 2rem;
 gap: 1rem;
 padding: 0 2rem;
 }
-/* .company-title{
-    color: black;
-} */
- /* .heading-comapany{
-    position: relative;
- } */
+
 
 
  .company-main{
@@ -65,36 +59,19 @@ font-size: 1rem;
 }
 
 
-
-/* .company-title::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -1rem; 
-    width: 65%;
-    height: 1px; 
-    background-color: #1f5faa; 
+@media(max-width:640px){
+   
+    .footersecond-main{
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 0;
+        
+        }
+        .company-main{
+            display: flex;
+           flex-direction: column;
+         }
+        
+        
+        
 }
- .company-title::before {
-    content: "";
-    position: absolute;
-    right: 3.5rem;
-    bottom: -25px; 
-    width: 9px; 
-    height: 9px;
-    background-color: white;
-    border:1px solid #1f5faa; ; 
-    border-radius: 50%;
-} */
-
-/*
-.texts{
-    margin-top: 0.4rem;
-}
-.text-below{
-    padding: 0.5rem;
-    color: rgb(123, 116, 116);
-}
-.greatersymbol{
-margin-right:0.5rem ;
-} */

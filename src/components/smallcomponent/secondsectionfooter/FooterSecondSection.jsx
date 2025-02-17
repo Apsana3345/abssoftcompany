@@ -16,43 +16,7 @@ const FooterSecondSection = () => {
 <Icon   icon="skill-icons:linkedin"/>
     </div>
 </div>
-{/* <div className="company-main">
-<h1 className="company-title">
-  OUR COMPANY
-</h1>
 
-<div className="texts">
-<h2 className="text-below">
-<span className="greatersymbol">&gt;</span> Project Partnership
-</h2>
-<h2 className="text-below">
-<span className="greatersymbol">&gt;</span>  About Us
-</h2>
-<h2 className="text-below">
-<span className="greatersymbol">&gt;</span>  Team
-</h2>
-</div>
-</div>
-<div className="info-contact">
-<h1 className="company-title">
- 
-</h1>
-
-<div className="texts">
-<h2 className="text-below">
-<span className="greatersymbol">&gt;</span> Project Partnership
-</h2>
-<h2 className="text-below">
-<span className="greatersymbol">&gt;</span>  About Us
-</h2>
-<h2 className="text-below">
-<span className="greatersymbol">&gt;</span>  Team
-</h2>
-</div>
-
-
-</div>
-<div className="client-area"></div> */}
 
 <div className="company-main">
 {FooterConstant.map((item)=>{

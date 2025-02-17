@@ -37,7 +37,7 @@ const Testimonial = () => {
             </div>
           </div>
 
-          {/* <div className="right-test"> */}
+          {/* <div > */}
             <Testright />
           {/* </div> */}
         </div>

@@ -45,13 +45,13 @@
 
 }
 .imagesClients{
-    padding: 4rem;
+    padding: 3rem;
    display: flex;
    align-items: center;
    justify-content: center;
 }
 .imagelist{
-    width: 250px;
+    width: 210px;
 }
 
 @media(max-width:740px){
@@ -80,12 +80,21 @@
 @media(max-width:440px){
 
     .imagesClients{
-        display: flex;
-        flex-direction: column;
-    
+        display: grid;
+grid-template-columns: repeat(2,100px);    
 
     }
+    .left-section{
+
+        gap: 1rem;
+    }
+    .logoimg{
+        width: 20px;
+    }
     
+    .trust{
+        font-size: 1rem;
+    }
 
 
 }
