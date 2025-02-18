@@ -57,4 +57,25 @@ padding: 1rem 0;
     margin-right: 10px;
   }
 
+  @media(max-width:740px){
+
+    .aspect-main{
+        display: flex;
+        flex-direction: column;
+        
+        }
+
+
+
+  }
+  @media(max-width:340px){
+
+    
+    .aspect-right-Image img{
+        width: 310px;
+            
+        }
+
+  }
+
 

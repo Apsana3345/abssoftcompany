@@ -33,3 +33,21 @@ padding: 1rem;
     font-weight: 700;
 
 }
+
+
+@media (max-width:764px){
+    .aboutusdata-main{
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutus-main{
+       align-self:first baseline;
+        gap: 3rem;
+        padding-left: 3rem;
+    }
+   
+
+
+}

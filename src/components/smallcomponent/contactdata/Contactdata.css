@@ -68,3 +68,18 @@ font-size: 1.1rem;
     color: gray;
     text-decoration: none;
 }
+
+@media(max-width:1000px){
+
+    .contactdata-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        flex-direction: column;
+    
+    }
+
+
+
+}
