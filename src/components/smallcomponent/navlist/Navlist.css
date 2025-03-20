@@ -1,12 +1,14 @@
 .link{
     color:white;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    padding-right: 1rem;
+    font-weight: 500;
     font-family: Barlow,sans-serif;
 
 }
 .link:hover{
-    color: rgb(61, 104, 164);
+    color: whitesmoke;
 };
 
 .dropdown{
@@ -17,6 +19,6 @@
     .link{
         /* display: none; */
        
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
 }

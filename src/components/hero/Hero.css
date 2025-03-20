@@ -37,7 +37,7 @@ align-items: center;
   padding-left: 3rem;
   z-index: 2;
   font-family: "Barlow", serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   
 
 
@@ -62,15 +62,15 @@ align-items: center;
 }
 .firstHeading,.secondHeading{
 
-  font-size:5rem ;
-  font-weight: 600;
+  font-size:4rem ;
+  font-weight: 700;
   
   
 }
 .thirdHeading{
   width: 60%;
   font-size: 1.4rem;
-  font-weight: 200;
+  font-weight: 400;
   gap: 1rem;
   transform: translateX(-1rem);
   transition: transform 1s;

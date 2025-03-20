@@ -39,7 +39,7 @@ font-weight: bold;
 }
 .years{
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 
@@ -110,12 +110,12 @@ font-weight: bold;
     padding: 1rem 1.1rem;
 }
 .upper{
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 700;
     padding: 0.5rem 0;
 }
 .lower{
-    font-size:1.4rem ;
+    font-size:1rem ;
     color: gray;
 }
 .line{
@@ -145,16 +145,16 @@ justify-content: space-between;
   background-color: rgb(61, 104, 164);
   border: none;
   align-items: center;
-  font-size: 1.5rem;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 600;
   position: relative;
   overflow: hidden;
    transition: color 0.4s ease;
 }
-.butn1:hover{
-background-size: 100% 100%;
-    background-color: rgb(1, 2, 43);
-}
+.butn1:hover {
+    background: linear-gradient(90deg, #1a3e72, #3d68a4);
+    transform: scale(1.05);
+  }
 
 .lower{
 padding: 0.2rem 0;
@@ -167,15 +167,15 @@ padding: 0.2rem 0;
    
     text-decoration: none;
     color: black;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.5rem;
 }
 .num{
 
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .number-center{
@@ -371,6 +371,7 @@ color: black;
       
         font-size: 0.5rem;
     }
+    
     .rightContact .num{
         font-size: 0.7rem;
     }
